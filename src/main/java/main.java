@@ -1,6 +1,6 @@
 public class main {
     StringBuilder vertical;
-    public String paintSmall(int width, int height) {
+    public String paintNormal(int width, int height) {
         if(vertical.length() > 0) {
             vertical.delete(0, vertical.length() - 1);
         }

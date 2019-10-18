@@ -9,11 +9,8 @@ public class Board extends main {
 
     public static void main(String[] args) {
         Board board = new Board();
-        System.out.println(board.paintSmall(5, 4));
+        System.out.println(board.paintNormal(10, 6));
 
-        System.out.println(board.paintSmall(9, 8));
-
-        System.out.println(board.paintSmall(15, 14));
 
     }
 
